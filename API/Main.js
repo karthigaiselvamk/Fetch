@@ -8,6 +8,7 @@ var request = app.textRequest('<Your text query>', {
  
 request.on('response', function(response) {
     console.log(response);
+ console.log(response);
 });
  
 request.on('error', function(error) {
